@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+
+
+* {
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+header img {
+    display: inline-block;
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+}
+
+.homes {
+    text-align: right;
+}
+
+.homes a{
+    position: relative;
+    color: rgb(22, 22, 22);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: right;
+    padding-left: 35px;
+    bottom: 65px;
+}
+
+main h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(56, 56, 56);
+    font-size: 3.2em;
+    margin-top: 100px;
+}
+
+main span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0A7C5D;
+}
+
+main p {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 700px;
+    min-width: 200px;
+    text-align: justify;
+    color: rgb(49, 49, 49);
+    margin-top: 20px;
+}
+
+.link {
+    background-color: #0A7C5D;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 25px;
+    border-radius: 20px;
+}
+
+.link > a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.boll {
+    position: absolute;
+    width: 1500px;
+    height: 1500px;
+    background-color: #0A7C5D;
+    border-radius: 50%;
+    left: 700px;
+    top: 200px;    
+}
+
+.boll > picture {
+    position: absolute;
+    left: 170px;
+    top: -40px;
+    
+}
+
+.social {
+   position: relative;
+   left: 1100px;
+   top: -200px;
+   margin-left: 60px;
+}
+
+.social img {
+    display: block;
+}
